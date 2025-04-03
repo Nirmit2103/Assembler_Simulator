@@ -1,0 +1,8 @@
+addi s4,s4,7   
+sub t5,zero,s4
+add s5,s4,s4
+slt t3,s4,s5   
+slt t4,s5,s4   
+srl a6,t4,s4   
+srl a7,t4,t4  
+beq zero,zero,0

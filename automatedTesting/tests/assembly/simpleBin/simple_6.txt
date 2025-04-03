@@ -1,0 +1,9 @@
+addi ra,zero,1
+addi a0,zero,2
+add gp,a0,ra
+sub tp,gp,ra
+slt t0,zero,tp
+srl t0,t0,a0
+or t1,t0,ra
+and t2,t1,t1
+beq zero,zero,0

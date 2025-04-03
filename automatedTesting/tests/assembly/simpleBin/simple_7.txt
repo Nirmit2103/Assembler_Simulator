@@ -1,0 +1,17 @@
+addi ra,zero,1
+addi t3,zero,8
+jalr t0,t3,8
+addi sp,zero,2
+label: addi sp,zero,1024
+add sp,sp,sp
+add sp,sp,sp
+add sp,sp,sp
+add sp,sp,sp
+add sp,sp,sp
+add sp,sp,sp
+lw tp,0(sp)
+sw t3,0(sp)
+lw tp,0(sp)
+sw t3,4(sp)
+lw tp,4(sp)
+beq zero,zero,0

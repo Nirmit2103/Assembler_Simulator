@@ -1,0 +1,27 @@
+addi s4,zero,8
+addi s6,zero,4
+addi ra,zero,0
+or t5,s0,s1
+label1: addi s6,s6,16
+jalr zero,ra,28
+beq s0,s1,label6
+addi t0,zero,4
+label6: addi s0,s0,8
+jal ra,16
+srl s4,s0,s3
+and a0,t5,s0
+addi s5,zero,256
+addi s5,zero,256
+addi s5,zero,256
+addi s5,zero,256
+add s5,s5,s5
+add s5,s5,s5
+add s5,s5,s5
+add s5,s5,s5
+add s5,s5,s5
+add s5,s5,s5
+add s5,s5,s5
+add s5,s5,s5
+sw s4,0(s5)
+lw t4,0(s5)
+beq zero,zero,0

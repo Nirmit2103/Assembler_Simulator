@@ -1,0 +1,15 @@
+addi ra,zero,1
+addi t1,zero,2
+addi gp,zero,1024
+add gp,gp,gp
+add gp,gp,gp
+add gp,gp,gp
+add gp,gp,gp
+add gp,gp,gp
+add gp,gp,gp
+lw tp,0(gp)
+sw t1,0(gp)
+lw tp,0(gp)
+sw ra,4(gp)
+lw tp,0(gp)
+beq zero,zero,0

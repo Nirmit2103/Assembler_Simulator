@@ -1,0 +1,11 @@
+addi ra,zero,1
+addi a2,zero,2
+addi gp,zero,5
+beq gp,ra,equal
+add gp,gp,ra
+equal: add gp,gp,a2
+bne gp,a2,unequal
+add gp,gp,ra
+unequal: add gp,gp,a2
+add gp,gp,ra
+halt: beq zero,zero,0
